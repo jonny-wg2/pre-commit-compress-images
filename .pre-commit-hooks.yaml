@@ -1,0 +1,7 @@
+---
+- id: compress-images
+  name: Compress JPEG and PNG images
+  language: golang
+  files: '\.(jpg|jpeg|png)$'
+  entry: go run compress-images.go
+  # args: ['--quality=80']
